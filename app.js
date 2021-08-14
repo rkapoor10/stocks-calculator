@@ -46,7 +46,8 @@ function calculateReturns(initial,quantity,current){
         
 
     }else if(initial===current){
-        showOutput("risk hai toh isq hai")
+        outputDiv.style.display = "block";
+        showOutput("this stock is as still as a monk")
         lottie[0].style.display = "none";
         lottie[1].style.display = "none" ;
         theme.style.backgroundColor = "white"
