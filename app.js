@@ -19,7 +19,9 @@ let qty = Number(stocksQuantity.value);
 let curr = Number(currentPrice.value);
 
 if(cost<=0 || qty<=0 || curr<=0){
+    outputDiv.style.display = "block";
     showOutput("Enter valid inputs")
+    console.log("yes its here")
 }
 else{calculateReturns(cost,qty,curr)}
 
@@ -63,6 +65,7 @@ function calculateReturns(initial,quantity,current){
     }
     }
     else{
+        outputDiv.style.display = "block";
         showOutput("Please enter a valid input")
     }
 
