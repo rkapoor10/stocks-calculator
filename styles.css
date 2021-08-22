@@ -29,6 +29,7 @@ button{
     padding: 0.5rem 1rem;
     border-color: gray;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
 label{
     display: block;
